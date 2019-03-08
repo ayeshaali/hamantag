@@ -3,6 +3,7 @@ body{
   background-color: black;
   color: #00ff00;
   font-family: 'Inconsolata', monospace;
+  font-size: 20px
 }
 
 h1{
@@ -61,7 +62,7 @@ p{
 .scoreboardtable{
   margin-left:25px;
   margin-right:25px;
-  width:300px;
+  width:500px;
 }
 #tagged-players{
   color:red;
@@ -74,7 +75,8 @@ p{
 
 
 #killboard-div {
-  height:100px;
+  width: 520px;
+  height:500px;
   overflow:auto;
 }
 ol.rules-outer {
@@ -104,3 +106,4 @@ footer {
 #footer_text{
   margin:2px;
 }
+
