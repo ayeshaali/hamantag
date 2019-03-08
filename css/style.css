@@ -1,0 +1,106 @@
+
+body{
+  background-color: black;
+  color: #00ff00;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+.top-buffer { margin-top:20px; }
+
+p{
+}
+.btn-div{
+  text-align: center;
+}
+
+#logo {
+  text-align:center;
+  padding-top:20px;
+}
+.btn {
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  background: #00ff00;
+  border-color: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.btn:hover {
+  background: #00d100;
+  border-color: black;
+  text-decoration: none;
+}
+
+.padding-div{
+  padding-right: 30px;
+    padding-left: 30px;
+}
+
+.scorebox{
+  align: center;
+  width: 700px;
+  height: 500px;
+  overflow: scroll;
+  margin: auto;
+}
+.scoreboardtable{
+  margin-left:25px;
+  margin-right:25px;
+  width:300px;
+}
+#tagged-players{
+  color:red;
+}
+#killboard {
+  /* background-color: grey;
+  border: 1px solid white; */
+  padding-bottom:5px;
+}
+
+
+#killboard-div {
+  height:100px;
+  overflow:auto;
+}
+ol.rules-outer {
+  list-style-type: upper-roman;
+  color:white;
+}
+ol.rules-inner {
+  list-style-type: lower-alpha;
+}
+td {
+  border-bottom: 2px solid white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0f0;
+    color: black;
+    text-align: center;
+}
+#footer_text{
+  margin:2px;
+}
