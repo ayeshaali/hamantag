@@ -128,3 +128,9 @@ footer {
   padding-bottom: 10px;
 }
 
+#scoreboard2 {
+    text-decoration: none;
+    color: #00ff00;
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px
+}
