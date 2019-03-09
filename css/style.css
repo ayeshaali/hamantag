@@ -67,12 +67,25 @@ p{
 #tagged-players{
   color:red;
 }
-#killboard {
-  /* background-color: grey;
-  border: 1px solid white; */
-  padding-bottom:5px;
+#killboard tr td, #killed-board tr td{
+  border: 2px solid black;
+  padding-bottom:0px;
 }
 
+#killboard th, #killed-board th {
+  border-bottom: 2px solid white;
+  padding-bottom:0px;
+}
+
+#killed-board {
+  position: absolute;
+  top: 0px;
+  left: 26em;
+}
+
+#killboard {
+  width: 285px;
+}
 
 #killboard-div {
   width: 520px;
