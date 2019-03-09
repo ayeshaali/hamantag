@@ -120,3 +120,11 @@ footer {
   margin:2px;
 }
 
+#rank {
+  width: 50px;
+}
+
+#alive-players {
+  padding-bottom: 10px;
+}
+
