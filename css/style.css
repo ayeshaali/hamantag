@@ -67,6 +67,11 @@ p{
 #tagged-players{
   color:red;
 }
+
+#tagged-players2{
+  color:red;
+  margin-bottom: 50%;
+}
 #killboard tr td, #killed-board tr td{
   border: 2px solid black;
   padding-bottom:0px;
@@ -89,7 +94,6 @@ p{
 
 #killboard-div {
   width: 520px;
-  height:500px;
   overflow:auto;
 }
 ol.rules-outer {
@@ -129,6 +133,7 @@ footer {
 
 #alive-players {
   padding-bottom: 10px;
+  margin-bottom: 50%;
 }
 
 #scoreboard2 {
