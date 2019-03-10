@@ -70,7 +70,7 @@ p{
 
 #tagged-players2{
   color:red;
-  margin-bottom: 50%;
+  margin-bottom: 30%;
 }
 #killboard tr td, #killed-board tr td{
   border: 2px solid black;
@@ -133,7 +133,7 @@ footer {
 
 #alive-players {
   padding-bottom: 10px;
-  margin-bottom: 50%;
+  margin-bottom: 30%;
 }
 
 #scoreboard2 {
