@@ -80,7 +80,7 @@ p{
 #killed-board {
   position: absolute;
   top: 0px;
-  left: 26em;
+  left: 30em;
 }
 
 #killboard {
@@ -112,12 +112,15 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 14%;
     background-color: #0f0;
     color: black;
     text-align: center;
 }
 #footer_text{
+  font-size: 23px;
   margin:2px;
+  padding-top: 10px;
 }
 
 #rank {
@@ -133,4 +136,8 @@ footer {
     color: #00ff00;
     font-family: 'Inconsolata', monospace;
     font-size: 40px
+}
+
+#makebig {
+  font-size: 24px;
 }
